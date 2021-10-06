@@ -1,0 +1,98 @@
+	<!--
+	Waleed Masoom
+	ICS3UO
+	November 4TH, 2013
+	Average Program
+	The program makes 50 random numbers and calculates the average of them. then, finally displays the numbers upon the webpage and adds a customized style through the id command
+-->
+<! Doctype=HTML >
+<html>
+	  <head>
+	  		<meta charset="UTF-8">
+			<title>
+				   Little Hands Daycare
+			</title>
+			<link rel="stylesheet" type="text/css" href="Logo2.css">
+			<script src="Average.js">
+			</script>
+	   </head>
+	   <body>
+		
+		<div id="Titlecont">
+			<div id="Picture">
+				<img src="LogoPicture.png" width=60 height=60>
+			</div>
+
+
+			<div id="Title">
+				<h1>Little Hands Daycare</h1>
+			</div>
+
+
+			<div id="Motto">
+				<p> "It takes a village to raise a child" </p>
+			</div>
+		</div>
+
+
+		<div id="Button">
+			<a href="Computer SciencesWE.html">
+				<button type="button">
+					Home
+				</button> 
+			</a>
+
+			
+			<a href="Timer.html">
+			    <button type="button">
+					 Timer
+				</button>
+			</a>
+			
+			<a href="About Us.html">
+				<button type="button">
+					About
+				</button> 
+			</a>
+			
+			<a href="Register.html">			
+			   <button type="button">
+				    Register
+ 			   </button> 
+            </a>
+
+			<a href="Schedule.html">
+			   <button type="button">
+				    Events
+			   </button>
+			</a>
+
+
+			<a href="Staff.html">
+			<button type="button">
+				Contact
+			</button>
+			</a>
+		</div>	 		
+		</div>
+		
+	   		<div id="Hud">
+				 <button type="button" onclick="findAverage()">
+				 	 Click this to find out the average of 100 random numbers
+				 </button>
+				 <button type="button" onclick="showNumbers()">
+				 	 Click this to find out what were the 100 random numbers
+				 </button> 
+				 <p>
+				     The Average Number Is:
+				 </p>
+				 <p id="average">
+				 </p>
+				 <p>
+				     The Numbers Used Were:
+				 </p>
+				 <p id="numbers">
+				 </p>
+			</div>
+	   </body>
+</html>

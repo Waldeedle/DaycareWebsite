@@ -1,0 +1,91 @@
+<!--
+	Waleed Masoom
+	ICS3UO
+	December 20TH, 2013
+	Birthday Program
+	The program takes the object that was made from user input in the register page and uses that data to determine if anyone has a birthday today, if someone does have a birthday today then the program finds their first name and displays it in the html at the bottom
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>The Plan</title>
+		<link rel="stylesheet" type="text/css" href="Logo.css">
+		<script src="Schedule.js">
+		</script>
+	</head>
+	<body onload="birthday()">
+
+		
+		<div id="Titlecont">
+			<div id="Picture">
+				<img src="LogoPicture.png" width=60 height=60>
+			</div>
+
+
+			<div id="Title">
+				<h1>Little Hands Daycare</h1>
+			</div>
+
+
+			<div id="Motto">
+				<p> "It takes a village to raise a child" </p>
+			</div>
+		</div>
+
+
+		<div id="Button">
+			<a href="Computer SciencesWE.html">
+				<button type="button">
+					Home
+				</button> 
+			</a>
+
+			
+			<a href="Timer.html">
+			    <button type="button">
+					 Timer
+				</button>
+			</a>
+			
+			<a href="About Us.html">
+				<button type="button">
+					About
+				</button> 
+			</a>
+			
+			<a href="Register.html">			
+			   <button type="button">
+				    Register
+ 			   </button> 
+            </a>
+
+			<a href="Schedule.html">
+			   <button type="button">
+				    Events
+			   </button>
+			</a>
+
+
+			<a href="Staff.html">
+			<button type="button">
+				Contact
+			</button>
+			</a>
+		</div> 
+		</div>
+		<!--This is where the daily schedule is coded-->
+		<br>
+		<div id="Schedule">
+			 <img src="Calender.jpg" width=800 height=540>
+			 <!--This is where the html displays the output of the js-->
+			 <div id="txtContainer">
+			 	<p id="birthdays">
+			 	</p>
+		 	 </div>
+			 <div id="BirthdayBorder">
+			 	  <img src="Birthday Border.jpg" width=800 height=600>
+			 </div>		
+		</div>
+	</body>
+</html>

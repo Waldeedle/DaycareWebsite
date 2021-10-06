@@ -1,0 +1,362 @@
+html
+	{
+	background-image:url('backgroundimage.jpg');
+	background-size:100%;
+	}
+
+#Titlecont
+	{
+	width:100%;
+	transform:translateY(-24px);
+	}
+
+#Title
+	{
+	width:90%;
+	margin:0 auto;
+	font-size:32px;
+	font-family:Comic Sans MS;
+	Height:35px;
+	margin-top:-3.5%;
+	}
+	
+#Motto
+	{
+	font-family:Comic Sans MS;
+	width:75%;
+	margin:0 auto;
+	color:black;
+	font-size:15px;
+	Height:2px;
+	transform:translateY(5px);
+	margin-top:3%;
+	}	
+
+#Picture
+	{
+	float:left;
+	width:6px;
+	height:6px;
+	margin-top:1%;
+	}
+		
+#Button
+	{
+	text-align:center;
+	style=font-family:verdana;
+	border-radius:1px;
+	border:1px;
+	solid #FF6600;
+	background-color:#FF6600;
+	}
+
+#main 
+	{
+	width:1208px;
+	margin:0 auto;
+	background:#FF6600;
+	Height:301px
+	}
+
+body 
+	{
+	color:black;
+	font:13px sans-serif;
+	}
+
+#montage-wrap
+	{
+	width:1208px;
+	height:200px;
+	}
+	
+.montage-block
+	{
+	width:300px;
+	height:300px;
+	float:left;
+	overflow:hidden;
+	position:relative;
+	margin:0 auto;
+	background:#FFE5B4;
+	border:1px solid #FF6600;
+	}
+
+#block1
+	{
+	width:300px;
+	height:300px;
+	position:absolute;
+	background:url("students.jpg");
+	-webkit-transition:top .3s ease-in-out;
+	}
+		
+.montage-block:hover #block1
+	{
+	top:-350px;
+	}
+
+#block2	
+	{
+	width:300px;
+	height:300px;
+	position:absolute;
+	background:url("schedule.jpg");
+	-webkit-transition:top .3s ease-in-out;
+	}
+		
+.montage-block2:hover #block2
+	{
+	top:-350px;
+	}
+
+.montage-block2	
+	{
+	width:300px;
+	height:300px;
+	float:left;
+	overflow:hidden;
+	position:relative;
+	margin:0 auto;
+	background:#FFE5B4;
+	border:1px solid #FF6600;
+	}
+
+#block3	
+	{
+	width:300px;
+	height:300px;
+	position:absolute;
+	background:url("activities.jpg");
+	-webkit-transition: top .3s ease-in-out;
+	}
+		
+.montage-block2:hover #block3
+	{
+	top:-350px;
+	}
+
+#block4	
+	{
+	width:300px;
+	height:300px;
+	position:absolute;
+	background:url("staff.jpg");
+	-webkit-transition: top .3s ease-in-out;
+	}
+		
+.montage-block2:hover #block4
+	{
+	top:-350px;
+	}
+
+.thumb_content	
+	{
+	padding: 70px 15px 0 15px;
+	color: Black;
+	}
+	
+.thumb_content h1
+	{
+	margin: 0 0 5px 0;
+	color:Black;
+	font-size:14px;
+	}
+
+#links
+	{
+    float:right;
+	}
+
+
+#TimerBox               
+	{
+	width:40px;
+	margin:0 auto;
+	background:#FF6600;
+	Height:40px
+	} 
+    
+#display 
+    {
+	font-size:200px;
+	text-align:center;
+    font-family:serif;
+    font-style:times new roman;
+    color:#FF0000;
+    }
+
+#TextForNames
+    {
+    text-align:center;
+    }      
+    
+#mda
+	{
+	width:425px;
+	margin:0 auto;
+	background:#FF6600;
+	Height:125px;
+    }
+
+
+#getInput
+    {
+    width:200px;
+    color:#8080FF;
+	margin:0 auto;
+	background:#FF8D00;
+	Height:17px;
+    }       
+
+#getInput2
+    {
+    width:450px;
+    color:#000000;
+    text-align:center;
+	margin:0 auto;
+	background:#FF8D00;
+	Height:17px;
+    }       
+
+#centerAlignment
+    {
+    margin-left:55px;
+    }    
+  
+#centerAlignment2
+    {
+    margin-left:17px;
+    }   
+     
+#Hud
+   {
+   text-align:center;
+   }    
+    
+#average
+    {
+    font-size:200px;
+	text-align:center;
+    font-family:serif;
+    font-style:times new roman;
+    color:#FF0000;
+    }     
+
+#Schedule
+    {
+    align:center;
+    }
+    
+#main3
+	{
+	width:1300px;
+	margin:0 auto;
+	Height:600px;
+    font-size:18px;
+    background-image:url('Textbox.jpg');
+	}  
+     
+#main4 
+	{
+	width:450px;
+	margin:0 auto;
+	background:#FF6600;
+	Height:250px;
+	}
+    
+#gallery
+    {
+    width:1205px;
+    margin-left:64px;
+    background:#FF6600;
+    Height:395px;
+    display: inline-block;
+    position: relative;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;            
+    }    
+       
+.circular-image img 
+    {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius:50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
+    }
+    
+<!--a {text-decoration:none}//-->
+
+
+.hoverbox
+{
+	cursor: default;
+	list-style: none;
+}
+
+.hoverbox a
+{
+	cursor: default;
+}
+
+.hoverbox a .preview
+{
+	display: none;
+}
+
+.hoverbox a:hover .preview
+{
+	display: block;
+	position: absolute;
+	top: -33px;
+	left: -45px;
+	z-index: 1;
+}
+
+.hoverbox img
+{
+	background: #fff;
+	border-color: #aaa #ccc #ddd #bbb;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	padding: 2px;
+	vertical-align: top;
+	width: 100px;
+	height: 100px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
+}
+
+.hoverbox li
+{
+	background: #eee;
+	border-color: #ddd #bbb #aaa #ccc;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	display: inline;
+	float: left;
+	margin: 3px;
+	padding: 5px;
+	position: relative;
+}
+
+.hoverbox .preview
+{
+	border-color: #000;
+	width: 250px;
+	height: 200px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+}

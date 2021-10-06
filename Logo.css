@@ -1,0 +1,124 @@
+html
+	{
+	background-image:url('backgroundimage.jpg');
+	background-size:100%;
+	}
+
+
+#Title
+	{
+	width:90%;
+	margin:0 auto;
+	font-size:32px;
+	font-family:Comic Sans MS;
+	Height:35px;
+	margin-top:-3.5%;
+	}
+	
+#Motto
+	{
+	font-family:Comic Sans MS;
+	width:75%;
+	margin:0 auto;
+	color:black;
+	font-size:15px;
+	Height:2px;
+	transform:translateY(5px);
+	margin-top:3%;
+	}	
+
+#Picture
+	{
+	float:left;
+	width:6px;
+	height:6px;
+	margin-top:1%;
+	}
+	
+	
+#Button
+	{
+	text-align:center;
+	style=font-family:verdana;
+	border-radius:1px;
+	border:1px;
+	solid #FF6600;
+	background-color:#FF6600;
+	}
+	
+#main 
+	{
+	width:400px;
+	margin:0 auto;
+	background:#FF6600;
+	}
+
+#students 
+	{
+	text-align:center;
+	background:#FF6600;
+	float:left;
+	width:50%;
+	height:272px;
+	}
+
+#schedule 
+	{
+	text-align:center;
+	background:#0000FF;
+	float:left;
+	width:50%;
+	height:272px;
+	}
+    
+#activities 
+	{
+	text-align:center;
+	background:#0000FF;
+	float:left;
+	width:50%;
+	height:272px;
+	}
+
+#contacts 
+	{
+	text-align:center;
+	background:#FF6600;
+	float:right;
+	width:50%;
+	height:272px;
+	}
+
+#Schedule 
+	{
+	margin-left: 250px;
+	background:#0000FF;
+    height:200px;
+	width:500px;
+    margin-top:-14px;
+	}
+    
+#BirthdayBorder
+    {
+    z-index:-1;
+    position:absolute;
+    left:255px;
+    top:665px;
+    }
+
+#txtContainer
+    {
+    width:410px;
+    margin-left:10px;
+    margin-top:144px;
+    text-align:center;
+    color:red;
+    font-family:fantasy;
+    font-size:45px;
+    }
+        
+    <!--a 
+    {
+    text-decoration:none;
+    }
+    //-->
